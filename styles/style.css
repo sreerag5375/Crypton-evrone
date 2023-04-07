@@ -40,7 +40,9 @@ li {
 /* utility classes */
 
 .strong-para {
-  font-weight: bold;
+  font-size: 18px;
+  color: var(--primary-color);
+  opacity: 1;
 }
 
 .flex {
