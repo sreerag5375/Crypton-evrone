@@ -10,6 +10,7 @@
 :root {
   --inner-padding: 20px;
   --primary-color: black;
+  --secondary-color: #ededed;
 }
 
 body {
@@ -51,8 +52,45 @@ li {
 }
 
 .container {
-  max-width: 1180px;
+  max-width: 1280px;
   margin-inline: auto;
   padding-inline: var(--inner-padding);
   overflow: hidden;
 }
+
+/* navbar starts */
+
+.nav-bar {
+  justify-content: space-between;
+  padding: 16px 20px;
+}
+
+.logo-section img {
+  width: 72px;
+  height: 12px;
+}
+
+.nav-links {
+  gap: 34px;
+}
+
+.nav-tail-section {
+  gap: 32px;
+}
+
+.nav-tail-section .primary-btn {
+  padding: 10px 16px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 30px;
+  transition: 0.4s ease-in-out;
+}
+
+.nav-tail-section .primary-btn:hover {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+/* nav bar ends */
+
+
+
